@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+.info-container {
+    text-align: left;
+    max-width: 720px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 720px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+
+.img-ing img{
+    width: 150px;
+    border-radius: 10px;
+    height: 130px;
+}
+.info{
+    max-width: 500px;
+    color: #656464;
+    font-weight: bold;
+}
+
+.box-icons i{
+    padding: 8px;
+    border: 1px solid #dedede;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #5b5b5b;
+    transition: 0.5s;
+}
+
+.box-icons i:hover{
+    background-color: #d5d5d5;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#experience{
+    margin-top: 50px;
+}
+
+#education{
+    margin-top: 50px;
+}
+
+#education li a{
+    text-decoration: none;
+    background-color:#e0e0e0dc;
+    color: black;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#education li h3{
+    margin: 0;
+    margin-top: 12px;
+}
+
+#experience li h3{
+    margin: 0;
+    margin-top: 12px;
+}
+#projects{
+    margin-top: 50px;
+}
+
+#skills{
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    font-family:monospace;
+    color: #4f4d4ddc;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 2px;
+}
+
+
+.grid i{
+    color: black;
+}
+.card {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 200px;
+    height: 280px;
+}
+
+.card h3{
+    margin-top: auto;
+    font-size:20px;
+    margin: 0;
+}
+
+.card h3 a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card h3 a:hover{
+    text-decoration: underline;
+}
+
+.card p{
+    font-size: 13px;
+}
+
+
+.card ul{
+    color: black;
+    font-family: monospace;
+    font-size:10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card ul li{
+    background-color:#e0e0e0dc;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#skills ul{
+    color: black;
+    font-family: monospace;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#skills ul li{
+    background-color:#e0e0e0dc;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#skills ul li i{
+    font-size: 15px;
+}
+
